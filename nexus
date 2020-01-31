@@ -1,0 +1,9 @@
+deploy:deploying file
+
+-DgroupId=lap.com
+-DartifactId=lap
+-Dversion=1.0-SNAPSHOT
+-DinteractiveMode=false
+-Dpackage=war
+-Drepository=nexus
+-Durl=https://nexus-db/mano8888/nexus/lap.war
